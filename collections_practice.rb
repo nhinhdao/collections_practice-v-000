@@ -37,5 +37,5 @@ def sum_array
 end
 
 def add_s(array)
-      array.each { |e|  e + 's' if array.index(e) != 1}
+      array.each { |e|  e  << 's' if array.index(e) != 1}
 end
