@@ -33,7 +33,7 @@ end
 def sum_array(array)
       sum = 0
       array.each {|i| sum += i}
-      sum
+      # sum
 end
 
 def add_s(array)
