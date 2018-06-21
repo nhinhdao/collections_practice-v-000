@@ -30,7 +30,7 @@ def find_a(array)
       array.select {|w| w[0] == 'a'}
 end
 
-def sum_array
+def sum_array(array)
       sum = 0
       array.each {|i| sum + i}
       sum
