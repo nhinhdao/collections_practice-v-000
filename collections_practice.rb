@@ -13,10 +13,12 @@ end
 def swap_elements
 end
 
-def reverse_array
+def reverse_array(array)
+      array.reverse
 end
 
-def kesha_maker
+def kesha_maker(array)
+      array.each{ |chr|  chr[2] = '$'}
 end
 
 def find_a
