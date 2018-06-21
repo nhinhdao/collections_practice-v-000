@@ -7,7 +7,8 @@ def sort_array_desc(array)
 end
 
 def sort_array_char_count(array)
-      array.each { |e|  e.length}.to_a.sort
+      newarray = []
+      array.each { |e|  newarray << e.length}
 end
 
 def swap_elements(array)
@@ -35,5 +36,6 @@ def sum_array
       sum
 end
 
-def add_s
+def add_s(array)
+      array.each { |e|  e + 's' if array.index(e) != 1}
 end
